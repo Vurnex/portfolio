@@ -6,3 +6,25 @@ body {
     font-weight: bold;
     box-sizing: border-box;
 }
+
+.nav {
+
+    background-color: black;
+    color: white;
+    justify-content: flex-end;
+    position: fixed;
+    height: 7vh;
+    padding-top: 1em;
+}
+
+ul {
+    display: flex;
+    gap: 1em;
+    margin: 2em;
+    font-weight: bold;
+    
+}
+
+li {
+    display: inline-block;
+}
