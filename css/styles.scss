@@ -16,6 +16,7 @@ body {
     height: 7vh;
     width: 100%;
     padding-top: 1em;
+    z-index: 1;
 }
 
 ul {
@@ -74,3 +75,59 @@ li {
     justify-content: space-around;
     gap: 1em;
 }
+
+.projects {
+
+    padding: 7rem;
+    color: white;
+    background-color: darkblue;
+    background-image: linear-gradient(180deg, #07175f 0%, #181719 100%);
+    text-align: center;
+
+    a {
+        color: white;
+    }
+
+}
+
+.projects-container {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 2rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+}
+
+.card {
+
+    width: 100%;
+}
+
+.card-body {
+
+    color: black !important;
+}
+
+@media (max-width: 480px) {
+    
+    .am-container {
+
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .projects {
+
+        padding: 30px;
+    }
+
+    .projects-container {
+
+        grid-template-columns: unset;
+    }
+
+  }
