@@ -5,8 +5,8 @@ body {
 }
 
 .nav {
-  background-color: black;
-  color: white;
+  background-color: #0d6efd;
+  color: #f8f9fa;
   justify-content: center;
   align-items: center;
   position: fixed;
@@ -41,9 +41,8 @@ li {
   align-items: center;
   height: 100vh;
   width: 100%;
-  color: white;
-  background-color: grey;
-  background-image: linear-gradient(180deg, #3a3d40 0%, #181719 100%);
+  color: #181719;
+  background-color: #f8f9fa;
 }
 .introduction h1 {
   font-size: 4rem;
@@ -61,20 +60,19 @@ li {
   align-items: center;
   height: 100vh;
   width: 100%;
-  color: white;
-  background-color: red;
-  background-image: linear-gradient(180deg, #ff0000 0%, #181719 100%);
+  color: #181719;
+  background-color: #f8f9fa;
 }
 .about-me h1 {
   display: flex;
   align-items: center;
-  font-style: italic;
   font-size: 5.3rem;
   font-weight: bold;
 }
 .about-me p {
   width: 50%;
   font-size: 2rem;
+  color: #6c757d;
 }
 
 .am-container {
@@ -85,9 +83,8 @@ li {
 
 .projects {
   padding: 7rem;
-  color: white;
-  background-color: darkblue;
-  background-image: linear-gradient(180deg, #07175f 0%, #181719 100%);
+  color: #181719;
+  background-color: #f8f9fa;
   text-align: center;
 }
 .projects h1 {
@@ -129,9 +126,8 @@ li {
   gap: 10em;
   height: 100vh;
   width: 100%;
-  color: white;
-  background-color: orangered;
-  background-image: linear-gradient(18deg, #e05b0e 0%, #181719 100%);
+  color: #181719;
+  background-color: #f8f9fa;
 }
 .skills h1 {
   font-size: 4rem;
@@ -140,9 +136,13 @@ li {
 .skills p {
   font-size: 1.8rem;
   font-style: italic;
+  color: #6c757d;
 }
 .skills .devicons {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 85%;
   gap: 3em;
 }
 .skills .devicons > img {
@@ -186,8 +186,7 @@ li {
   }
   .navbar {
     display: flex;
-    background-color: brown;
-    background-image: linear-gradient(60deg, #b12c03 0%, #181719 100%);
+    background-color: #0d6efd;
   }
   .nav-link {
     color: white !important;
