@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   position: fixed;
-  height: 10vh;
+  min-height: 10vh;
   width: 100%;
   padding-top: 1em;
   z-index: 1;
@@ -39,7 +39,7 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   color: #181719;
   background-color: #f8f9fa;
@@ -58,7 +58,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   color: #181719;
   background-color: #f8f9fa;
@@ -124,7 +124,7 @@ li {
   justify-content: center;
   align-items: center;
   gap: 10em;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   color: #181719;
   background-color: #f8f9fa;
@@ -151,6 +151,52 @@ li {
 }
 .skills .devicons > i {
   font-size: 100px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  min-height: 100vh;
+  width: 100%;
+  color: #181719;
+  background-color: #f8f9fa;
+}
+.contact h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+.contact p {
+  font-size: 1.8rem;
+  font-style: italic;
+  color: #6c757d;
+}
+.contact .contact-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact .contact-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3em;
+  width: 80%;
+}
+.contact .contact-links > a {
+  text-decoration: none;
+  color: #181719 !important;
+  font-size: 2rem;
+}
+.contact .contact-links > a > img {
+  height: 30px;
+  width: auto;
+}
+.contact .contact-links > i {
+  font-size: 50px;
 }
 
 @media (max-width: 1024px) {
@@ -234,6 +280,15 @@ li {
   }
   .skills p {
     font-size: 1rem;
+  }
+  .contact h1 {
+    font-size: 2rem;
+  }
+  .contact p {
+    font-size: 1.2rem;
+  }
+  .contact .contact-links > a {
+    font-size: 1.5rem;
   }
 }
 @media (max-width: 300px) {
