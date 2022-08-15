@@ -259,6 +259,20 @@ li {
 
 }
 
+footer {
+
+    background-color: $color-blue;
+    color: $color-white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh;
+    width: 100%;
+    padding-top: 1em;
+    z-index: 1;
+    text-align: center;
+}
+
 @media (max-width: 1024px) {
 
     .about-me {
