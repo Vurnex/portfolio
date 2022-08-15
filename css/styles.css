@@ -97,6 +97,11 @@ li {
   color: white;
 }
 
+.btn {
+  padding: 1em !important;
+  font-weight: bold !important;
+}
+
 .projects-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -114,6 +119,38 @@ li {
 
 .card-body {
   color: black !important;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10em;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  background-color: orangered;
+  background-image: linear-gradient(18deg, #e05b0e 0%, #181719 100%);
+}
+.skills h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+.skills p {
+  font-size: 1.8rem;
+  font-style: italic;
+}
+.skills .devicons {
+  display: flex;
+  gap: 3em;
+}
+.skills .devicons > img {
+  height: 100px;
+  width: 100px;
+}
+.skills .devicons > i {
+  font-size: 100px;
 }
 
 @media (max-width: 1024px) {
