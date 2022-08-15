@@ -209,6 +209,11 @@ li {
             font-size: 1.5rem;
         }
     }
+
+    .skills {
+
+        gap: 5em;
+    }
 }
 
 @media (max-width: 820px) { 
@@ -234,6 +239,11 @@ li {
         }
     }
 
+    .skills {
+
+        gap: 7em;
+    }
+
   }
 
   @media (max-width: 720px) { 
@@ -250,6 +260,11 @@ li {
 
             font-size: 1rem;
         }
+    }
+
+    .skills {
+
+        gap: 3em;
     }
 
   }
@@ -291,6 +306,8 @@ li {
 
     .about-me {
 
+        height: 103vh;
+
         h1 {
 
             font-size: 3.0rem;
@@ -319,6 +336,21 @@ li {
         grid-template-columns: unset;
     }
 
+    .skills {
+
+        gap: 3em;
+
+        h1 {
+
+            font-size: 2rem;
+        }
+
+        p {
+
+            font-size: 1rem;
+        }
+    }
+
   }
 
   @media (max-width: 300px) { 
@@ -326,6 +358,20 @@ li {
     .projects {
 
         padding: 30px;
+    }
+
+    .skills {
+
+        .devicons > img {
+
+            height: 60px;
+            width: auto;
+        }
+    
+        .devicons > i {
+    
+            font-size: 60px;
+        }
     }
 
   }

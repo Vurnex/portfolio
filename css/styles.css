@@ -160,6 +160,9 @@ li {
   .about-me p {
     font-size: 1.5rem;
   }
+  .skills {
+    gap: 5em;
+  }
 }
 @media (max-width: 820px) {
   .introduction h1 {
@@ -171,6 +174,9 @@ li {
   .about-me p {
     font-size: 1.9rem;
   }
+  .skills {
+    gap: 7em;
+  }
 }
 @media (max-width: 720px) {
   .nav {
@@ -178,6 +184,9 @@ li {
   }
   .about-me p {
     font-size: 1rem;
+  }
+  .skills {
+    gap: 3em;
   }
 }
 @media (max-width: 660px) {
@@ -197,6 +206,9 @@ li {
   .introduction p {
     font-size: 0.9rem;
   }
+  .about-me {
+    height: 103vh;
+  }
   .about-me h1 {
     font-size: 3rem;
   }
@@ -214,9 +226,25 @@ li {
   .projects-container {
     grid-template-columns: unset;
   }
+  .skills {
+    gap: 3em;
+  }
+  .skills h1 {
+    font-size: 2rem;
+  }
+  .skills p {
+    font-size: 1rem;
+  }
 }
 @media (max-width: 300px) {
   .projects {
     padding: 30px;
+  }
+  .skills .devicons > img {
+    height: 60px;
+    width: auto;
+  }
+  .skills .devicons > i {
+    font-size: 60px;
   }
 }/*# sourceMappingURL=styles.css.map */
