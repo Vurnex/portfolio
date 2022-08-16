@@ -152,6 +152,11 @@ li {
         color: white;
     }
 
+    .card-body > p {
+
+        font-weight: bold;
+    }
+
     .card-body > .btn {
 
         margin: 0.5em !important;
@@ -409,6 +414,9 @@ footer {
     .navbar {
 
         display: flex;
+        position: fixed !important;
+        width: 100%;
+        z-index: 1;
         background-color: $color-blue;
     }
 
