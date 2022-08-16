@@ -81,6 +81,11 @@ li {
     color: $color-black;
     background-color: $color-white;
 
+    img {
+        height: 200px;
+        border-radius: 50%;
+    }
+
     h1 {
 
         font-size: 4rem;
@@ -145,6 +150,12 @@ li {
 
     a {
         color: white;
+    }
+
+    .card-body > .btn {
+
+        margin: 0.5em !important;
+        padding: 0.5em !important;
     }
 
 }
@@ -340,7 +351,7 @@ footer {
 
         h1 {
 
-            font-size: 3rem;
+            font-size: 5rem;
         }
     }
 
@@ -414,15 +425,20 @@ footer {
 
     .introduction {
 
+        img {
+            height: 150px;
+            border-radius: 50%;
+        }
+
         h1 {
 
-            font-size: 1.3rem;
+            font-size: 2.3rem;
 
         }
 
         p {
 
-            font-size: 0.9rem;
+            font-size: 1.3rem;
         }
 
 
