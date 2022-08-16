@@ -29,17 +29,17 @@
 
     <nav class="nav shadow-sm">
       <ul>
-        <li>Home</li>
-        <li>About Me</li>
-        <li>Projects</li>
-        <li>Skills</li>
-        <li>Contact</li>
+        <li><a href="#intro">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
 
     <!--Hamburger Menu for Smaller view ports-->
 
-    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
       <div class="container-fluid">
         
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
@@ -51,87 +51,85 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="#intro">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Me</a>
+              <a class="nav-link" href="#about">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"> Skills</a>
+              <a class="nav-link" href="#skills"> Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <section class="introduction border-bottom">
-      <h1>Hi! I'm Laquon Hamilton</h1>
+    <section class="introduction border-bottom" id="intro">
+      <h1>Laquon Hamilton</h1>
       <p>Front-End Web Developer</p>
     </section>
 
-    <section class="about-me border-bottom">
+    <section class="about-me border-bottom" id="about">
 
       <div class="am-container">
         <h1>About Me</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus iaculis massa velit,
-          ut feugiat arcu tincidunt sit amet. Fusce tempor risus viverra ex auctor, quis euismod libero vulputate.
-          Proin vestibulum condimentum leo. Cras id imperdiet lacus. Nulla facilisi.
-          Praesent tempor id lorem at dignissim.
-          Interdum et malesuada fames ac ante ipsum primis in faucibus.
-          Proin hendrerit tempor risus et finibus. Mauris ac aliquet quam.</p>
+        <p>Currently in my final year of my Information Technology Degree, I spend some of my free time continuing to learn
+          best web development practices and technologies. Simplicity is key. I want to make sure any
+          website I build is user-friendly, to the point, and nice-looking at the same time.
+        </p>
       </div>
 
     </section>
 
-    <section class="projects shadow-sm border-bottom">
+    <section class="projects shadow-sm border-bottom" id="projects">
 
       <h1>Some of My Recent Projects</h1>
       
       <div class="projects-container">
 
         <div class="card">
-          <img src="img/project.jpg" class="card-img-top" alt="..." height="300px" width="300px">
+          <img src="img/project.jpg" class="card-img-top" alt="Project 1" height="300px" width="300px">
           <div class="card-body">
             <p class="card-text">Project Title</p>
           </div>
         </div>
 
         <div class="card">
-          <img src="img/project.jpg" class="card-img-top" alt="..." height="300px" width="300px">
+          <img src="img/project.jpg" class="card-img-top" alt="Project 2" height="300px" width="300px">
           <div class="card-body">
             <p class="card-text">Project Title</p>
           </div>
         </div>
 
         <div class="card">
-          <img src="img/project.jpg" class="card-img-top" alt="..." height="300px" width="300px">
+          <img src="img/project.jpg" class="card-img-top" alt="Project 3" height="300px" width="300px">
           <div class="card-body">
             <p class="card-text">Project Title</p>
           </div>
         </div>
 
         <div class="card">
-          <img src="img/project.jpg" class="card-img-top" alt="..." height="300px" width="300px">
+          <img src="img/project.jpg" class="card-img-top" alt="Project 4" height="300px" width="300px">
           <div class="card-body">
             <p class="card-text">Project Title</p>
           </div>
         </div>
 
         <div class="card">
-          <img src="img/project.jpg" class="card-img-top" alt="..." height="300px" width="300px">
+          <img src="img/project.jpg" class="card-img-top" alt="Project 5" height="300px" width="300px">
           <div class="card-body">
             <p class="card-text">Project Title</p>
           </div>
         </div>
 
         <div class="card">
-          <img src="img/project.jpg" class="card-img-top" alt="..." height="300px" width="300px">
+          <img src="img/project.jpg" class="card-img-top" alt="Project 6" height="300px" width="300px">
           <div class="card-body">
             <p class="card-text">Project Title</p>
           </div>
@@ -143,7 +141,7 @@
 
     </section>
 
-    <section class="skills border-bottom">
+    <section class="skills border-bottom" id="skills">
 
       <h1>Skills</h1>
 
@@ -167,7 +165,7 @@
 
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
 
       <div class="contact-header">
 
@@ -194,12 +192,13 @@
           <i class="devicon-github-original"></i>
           
           GitHub</a>
-        <a href="#"> <img src="img/email.svg" alt="...">
+        <a href="#"> <img src="img/email.svg" alt="Email">
           Send An Email</a>
-        <a href="#"> <img src="img/cellphone.svg" alt="...">
+        <a href="#"> <img src="img/cellphone.svg" alt="Cell">
           Call me</a>
 
       </div>
+
     </section>
 
     <footer>
