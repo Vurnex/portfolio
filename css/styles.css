@@ -189,6 +189,10 @@ li {
 .projects a {
   color: white;
 }
+.projects .card > img {
+  height: 300px;
+  width: auto;
+}
 .projects .card-body > p {
   font-weight: bold;
 }
