@@ -411,6 +411,9 @@ footer {
   .projects {
     padding: 50px;
   }
+  .projects .card > img {
+    height: 180px;
+  }
   .projects-container {
     grid-template-columns: unset;
   }

@@ -552,6 +552,11 @@ footer {
     .projects {
 
         padding: 50px;
+
+        .card > img {
+
+            height: 180px;
+        }
     }
 
     .projects-container {
