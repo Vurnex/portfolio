@@ -300,6 +300,7 @@ li {
 .card {
 
     width: 100%;
+    margin: auto;
 }
 
 .card-body {
@@ -452,6 +453,11 @@ footer {
         }
     }
 
+    .card {
+
+        max-width: 400px;
+    }
+
     .skills {
 
         gap: 5em;
@@ -595,6 +601,11 @@ footer {
     .projects-container {
 
         grid-template-columns: unset;
+    }
+
+    .card {
+
+        max-width: 250px;
     }
 
     .skills {
