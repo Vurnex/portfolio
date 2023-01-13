@@ -70,11 +70,27 @@ html[data-theme="dark"] {
   }
   
   .slider.round {
-    border-radius: 34px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .slider.round:before {
     border-radius: 50%;
+  }
+
+  .fas.fa-moon {
+
+    padding: 4px;
+    font-size: 25px;
+    color: pink;
+  }
+
+  .fas.fa-sun {
+
+    font-size: 23px;
+    color: yellow;
   }
   
 
