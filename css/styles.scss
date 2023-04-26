@@ -237,8 +237,14 @@ li {
         text-transform: uppercase;
     }
 
+    h1 {
+
+        font-size: calc(2.375rem + 1.5vw);
+    }
+
     h2 {
 
+        font-size: 3rem;
         padding-top: 5rem;
     }
 
@@ -337,8 +343,10 @@ li {
     gap: 10em;
     min-height: 100vh;
     width: 100%;
+    text-align: center;
     color: var(--color-secondary);
     background-color: var(--color-main);
+    padding: 0 1em 0 1em;
 
     h1 {
 
@@ -392,12 +400,14 @@ li {
     h1 {
 
         font-size: 4rem;
+        text-align: center;
         font-family: var(--nav-font);
         text-transform: uppercase;
     }
 
     p {
         font-size: 1.8rem;
+        text-align: center;
         font-style: italic;
         color: var(--color-secondary-after);
     }
@@ -551,6 +561,7 @@ footer {
     padding-top: 1em;
     z-index: 1;
     text-align: center;
+    
 }
 
 @media (max-width: 1024px) {
@@ -576,6 +587,19 @@ footer {
     .skills {
 
         gap: 5em;
+    }
+
+    .contact-container {
+
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+        margin: 5em 0 5em 0;
+    }
+
+    .contact-right {
+
+        width: 85%;
     }
 }
 
@@ -613,30 +637,6 @@ footer {
 
     .nav {
 
-        height: 12vh;
-    }
-    
-    .about-me {
-
-
-        p {
-
-            font-size: 1rem;
-        }
-    }
-
-    .skills {
-
-        gap: 3em;
-    }
-
-  }
-
-
-  @media (max-width: 660px) {
-
-    .nav {
-
         display: none !important;
     }
 
@@ -659,6 +659,32 @@ footer {
 
         padding-top: 1em;
     }
+
+    .nav-item {
+
+        display: flex;
+        justify-content: center;
+    }
+    
+    .about-me {
+
+
+        p {
+
+            font-size: 1rem;
+        }
+    }
+
+    .skills {
+
+        gap: 3em;
+    }
+
+  }
+
+
+  @media (max-width: 660px) {
+
 
     .introduction {
 
@@ -727,35 +753,38 @@ footer {
 
         gap: 3em;
 
-        h1 {
+    }
 
-            font-size: 2rem;
-        }
+    .contact-container {
 
-        p {
+        width: 100%;
+    }
 
-            font-size: 1rem;
+    .contact-left {
+
+        width: unset;
+    }
+
+    .contact-form-container {
+
+        form {
+
+            flex-wrap: unset;
+            flex-direction: column;
         }
     }
 
-    .contact {
+    .field-input {
 
-        h1 {
+        width: unset;
+    }
 
-            font-size: 2rem;
+    .field-button {
+
+        button {
+
+            width: 100%;
         }
-
-        p {
-
-            font-size: 1.2rem;
-        }
-
-        .contact-links > a {
-
-            font-size: 1.5rem;
-        }
-
-
     }
 
   }

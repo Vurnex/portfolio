@@ -204,7 +204,11 @@ li {
   font-family: var(--nav-font);
   text-transform: uppercase;
 }
+.projects h1 {
+  font-size: calc(2.375rem + 1.5vw);
+}
 .projects h2 {
+  font-size: 3rem;
   padding-top: 5rem;
 }
 .projects a {
@@ -281,8 +285,10 @@ li {
   gap: 10em;
   min-height: 100vh;
   width: 100%;
+  text-align: center;
   color: var(--color-secondary);
   background-color: var(--color-main);
+  padding: 0 1em 0 1em;
 }
 .skills h1 {
   margin-top: 1em;
@@ -324,11 +330,13 @@ li {
 }
 .contact h1 {
   font-size: 4rem;
+  text-align: center;
   font-family: var(--nav-font);
   text-transform: uppercase;
 }
 .contact p {
   font-size: 1.8rem;
+  text-align: center;
   font-style: italic;
   color: var(--color-secondary-after);
 }
@@ -463,6 +471,15 @@ footer {
   .skills {
     gap: 5em;
   }
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    margin: 5em 0 5em 0;
+  }
+  .contact-right {
+    width: 85%;
+  }
 }
 @media (max-width: 820px) {
   .introduction h1 {
@@ -480,17 +497,6 @@ footer {
 }
 @media (max-width: 720px) {
   .nav {
-    height: 12vh;
-  }
-  .about-me p {
-    font-size: 1rem;
-  }
-  .skills {
-    gap: 3em;
-  }
-}
-@media (max-width: 660px) {
-  .nav {
     display: none !important;
   }
   .navbar {
@@ -507,6 +513,18 @@ footer {
   .navbar-collapse {
     padding-top: 1em;
   }
+  .nav-item {
+    display: flex;
+    justify-content: center;
+  }
+  .about-me p {
+    font-size: 1rem;
+  }
+  .skills {
+    gap: 3em;
+  }
+}
+@media (max-width: 660px) {
   .introduction img {
     height: 150px;
     border-radius: 50%;
@@ -546,20 +564,21 @@ footer {
   .skills {
     gap: 3em;
   }
-  .skills h1 {
-    font-size: 2rem;
+  .contact-container {
+    width: 100%;
   }
-  .skills p {
-    font-size: 1rem;
+  .contact-left {
+    width: unset;
   }
-  .contact h1 {
-    font-size: 2rem;
+  .contact-form-container form {
+    flex-wrap: unset;
+    flex-direction: column;
   }
-  .contact p {
-    font-size: 1.2rem;
+  .field-input {
+    width: unset;
   }
-  .contact .contact-links > a {
-    font-size: 1.5rem;
+  .field-button button {
+    width: 100%;
   }
 }
 @media (max-width: 300px) {
