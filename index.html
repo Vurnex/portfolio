@@ -42,8 +42,8 @@
 
   <body>
 
-    <nav class="nav shadow-sm">
-      <ul>
+    <nav class="nav shadow-sm" aria-label="desktop navigation">
+      <ul class="inview-animate" data-animate="fadeInDown">
         <li><a href="#intro">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -66,8 +66,8 @@
 
     <!--Hamburger Menu for Smaller view ports-->
 
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" aria-label="mobile navigation">
+      <div class="container-fluid inview-animate" data-animate="fadeInDown">
         
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
           data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
@@ -109,16 +109,16 @@
     </nav>
 
     <section class="introduction border-bottom" id="intro">
-      <img src="img/avatar-main.png" alt="Avatar">
-      <h1>Laquon Hamilton</h1>
-      <p>Front-End Web Developer</p>
+      <img src="img/avatar-main.png" alt="Avatar" class="inview-animate" data-animate="fadeInDown">
+      <h1 class="inview-animate" data-animate="fadeInUp">Laquon Hamilton</h1>
+      <p class="inview-animate" data-animate="fadeInUp">Front-End Web Developer</p>
     </section>
 
     <section class="about-me border-bottom" id="about">
 
       <div class="am-container">
-        <h1>About Me</h1>
-        <p>I've been learning various programming languages the past few years. After taking a web development class, 
+        <h1 class="inview-animate" data-animate="fadeInLeft">About Me</h1>
+        <p class="inview-animate" data-animate="fadeInRight">I've been learning various programming languages the past few years. After taking a web development class, 
           I was certain that was where I wanted to pursue a career in. Now, I spend some of my free time continuing to learn
           best web development practices and technologies. Simplicity is key. I strive to make websites that are user-friendly, 
           to the point, and nice looking at the same time.
@@ -129,15 +129,15 @@
 
     <section class="projects shadow-sm border-bottom" id="projects">
 
-      <h1>Some of My Recent Projects</h1>
+      <h1 class="inview-animate" data-animate="fadeInUp">Some of My Recent Projects</h1>
 
       <div class="mobile-app-container">
 
-        <h2>Mobile Apps</h2>
+        <h2 class="inview-animate" data-animate="fadeIn">Mobile Apps</h2>
 
-        <img src="img/bankapp.png" alt="Mobile App">
+        <img src="img/bankapp.png" alt="Mobile App" class="inview-animate" data-animate="fadeIn">
 
-        <div class="card-body">
+        <div class="card-body inview-animate" data-animate="fadeIn">
 
           <p class="card-text">Bank App</p>
 
@@ -151,7 +151,7 @@
 
       <div class="projects-container">
 
-        <div class="card">
+        <div class="card inview-animate" data-animate="fadeIn">
           <img src="img/ec2fix.png" class="card-img-top" alt="Project 1">
           <div class="card-body">
             <p class="card-text">E.C.2Fix (IT Services Website)</p>
@@ -163,7 +163,7 @@
         </div>
 
 
-        <div class="card">
+        <div class="card inview-animate" data-animate="fadeIn">
           <img src="img/booklibrary.png" class="card-img-top" alt="Project 2">
           <div class="card-body">
             <p class="card-text">Personal Book Library</p>
@@ -174,7 +174,7 @@
           </div>
         </div>
 
-        <div class="card">
+        <div class="card inview-animate" data-animate="fadeIn">
           <img src="img/signup.png" class="card-img-top" alt="Project 3">
           <div class="card-body">
             <p class="card-text">Sign Up Page</p>
@@ -185,7 +185,7 @@
           </div>
         </div>
 
-        <div class="card">
+        <div class="card inview-animate" data-animate="fadeIn">
           <img src="img/sketch.png" class="card-img-top" alt="Project 4">
           <div class="card-body">
             <p class="card-text">Etch-A-Sketch</p>
@@ -196,7 +196,7 @@
           </div>
         </div>
 
-        <div class="card">
+        <div class="card inview-animate" data-animate="fadeIn">
           <img src="img/rps.png" class="card-img-top" alt="Project 5">
           <div class="card-body">
             <p class="card-text">Rock, Paper, Scissors</p>
@@ -207,8 +207,8 @@
           </div>
         </div>
 
-        <div class="card">
-          <img src="img/techwebstore.png" class="card-img-top" alt="Project 1">
+        <div class="card inview-animate" data-animate="fadeIn">
+          <img src="img/techwebstore.png" class="card-img-top" alt="Project 6">
           <div class="card-body">
             <p class="card-text">Tech Web Store</p>
 
@@ -220,37 +220,38 @@
 
       </div>
 
-      
-
-      <a href="https://github.com/Vurnex" target="_blank" class="btn btn-primary">See More</a>
+      <a href="https://github.com/Vurnex" target="_blank" class="btn btn-primary inview-animate" data-animate="fadeIn">See More</a>
 
     </section>
 
     <section class="skills border-bottom" id="skills">
 
-      <h1>Skills</h1>
+      <h1 class="inview-animate" data-animate="fadeInUp">Skills</h1>
 
-      <p>Programming Languages & Tools</p>
+      <p class="inview-animate" data-animate="fadeInUp">Programming Languages & Tools</p>
 
       <div class="devicons">
 
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
+        class="inview-animate" data-animate="fadeInUp" />
 
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
+        class="inview-animate" data-animate="fadeInUp" />
           
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+        class="inview-animate" data-animate="fadeInUp" />
 
-        <i class="devicon-mysql-plain-wordmark"></i>
+        <i class="devicon-mysql-plain-wordmark inview-animate" data-animate="fadeInUp"></i>
 
-        <i class="devicon-jquery-plain-wordmark"></i>
+        <i class="devicon-jquery-plain-wordmark inview-animate" data-animate="fadeInUp"></i>
 
-        <i class="devicon-sass-original"></i>
+        <i class="devicon-sass-original inview-animate" data-animate="fadeInUp"></i>
         
-        <i class="devicon-bootstrap-plain-wordmark"></i>
+        <i class="devicon-bootstrap-plain-wordmark inview-animate" data-animate="fadeInUp"></i>
 
-        <i class="devicon-git-plain"></i>
+        <i class="devicon-git-plain inview-animate" data-animate="fadeInUp"></i>
 
-        <i class="devicon-csharp-plain"></i>
+        <i class="devicon-csharp-plain inview-animate" data-animate="fadeInUp"></i>
           
       </div>
 
@@ -260,7 +261,7 @@
 
       <div class="contact-container">
 
-        <div class="contact-left">
+        <div class="contact-left inview-animate" data-animate="fadeInLeft">
 
           <div class="contact-header">
 
@@ -300,7 +301,7 @@
 
         </div>
 
-        <div class="contact-right">
+        <div class="contact-right inview-animate" data-animate="fadeInRight">
 
           <div class="contact-right-container">
 
