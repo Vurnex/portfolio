@@ -258,39 +258,124 @@
 
     <section class="contact" id="contact">
 
-      <div class="contact-header">
+      <div class="contact-container">
 
-        <h1>Contact Me!</h1>
-        <p>Let's get connected...</p>
+        <div class="contact-left">
 
-      </div>
+          <div class="contact-header">
 
-      <div class="contact-links">
+            <h1>Contact Me!</h1>
+            <p>Let's get connected...</p>
+    
+          </div>
+    
+          <div class="contact-links">
+    
+            <a href="https://www.linkedin.com/in/laquon-hamilton-14a007249/" target="_blank">
+    
+              <i class="devicon-linkedin-plain"></i>
+                        
+              Linkedin
+            </a>
+    
+            <!--
+            <a href="https://www.instagram.com/lhamcodes/" target="_blank">
+    
+              <i class="fa-brands fa-instagram"></i>
+              
+              Instagram</a>
+            -->
+            
+            <a href="https://github.com/Vurnex" target="_blank">
+              
+              <i class="devicon-github-original"></i>
+              
+              GitHub</a>
+            <a href="mailto:hamilton.laquon@gmail.com" target="_blank"> 
+              <i class="fa-solid fa-envelope" alt="Email"></i>
+              
+              Send An Email</a>
+    
+          </div>
 
-        <a href="https://www.linkedin.com/in/laquon-hamilton-14a007249/" target="_blank">
+        </div>
 
-          <i class="devicon-linkedin-plain"></i>
-                    
-          Linkedin
-        </a>
+        <div class="contact-right">
 
-        <!--
-        <a href="https://www.instagram.com/lhamcodes/" target="_blank">
+          <div class="contact-right-container">
 
-          <i class="fa-brands fa-instagram"></i>
-          
-          Instagram</a>
-        -->
-        
-        <a href="https://github.com/Vurnex" target="_blank">
-          
-          <i class="devicon-github-original"></i>
-          
-          GitHub</a>
-        <a href="mailto:hamilton.laquon@gmail.com" target="_blank"> 
-          <i class="fa-solid fa-envelope" alt="Email"></i>
-          
-          Send An Email</a>
+            <div class="ctt-right-header">
+
+              <h2>Send me a message</h2>
+
+            </div>
+
+            <div class="alert alert-success" role="alert" id="form-alert-success">
+              Message sent successfully.
+            </div>
+            <div class="alert alert-danger" role="alert" id="form-alert-fail">
+              Something went wrong. Please try again later.
+            </div>
+
+            <div class="contact-form-container">
+
+              <form method="post" name="contact-tech" data-netlify="true">
+
+                <div class="field-input">
+
+                  <label for="form-field-name" class="form-label">Name *</label>
+                  <input type="text" class="form-control" id="form-field-name" placeholder="Name" name="name" required>
+
+                </div>
+
+                <div class="field-input">
+
+                  <label for="form-field-company" class="form-label">Company</label>
+                  <input type="text" class="form-control" id="form-field-company" name="company" placeholder="Company">
+
+                </div>
+
+                <div class="field-input">
+
+                  <label for="form-field-email" class="form-label">Email *</label>
+                  <input type="email" class="form-control" id="form-field-email" placeholder="Email" name="email" required>
+
+                </div>
+
+                <div class="field-input">
+
+                  <label for="form-field-phone" class="form-label">Phone</label>
+                  <input type="tel" class="form-control" id="form-field-phone" name="phone" placeholder="Phone">
+
+                </div>
+
+                <div class="field-input-2">
+
+                  <label for="form-field-subject" class="form-label">Subject *</label>
+                  <input type="text" class="form-control" id="form-field-subject" placeholder="Subject" name="subject" required>
+
+                </div>
+
+                <div class="field-input-2">
+
+                  <label for="form-field-message" class="form-label">Message *</label>
+                  <textarea class="form-control txtarea" id="form-field-message" placeholder="Message" rows="4" name="message" required></textarea>
+
+                </div>
+
+                <div class="field-button btn-style">
+
+                  <button type="submit" class="btn btn-primary btn-style">Send Message</button>
+                  
+                </div>
+
+              </form>
+
+            </div>
+
+          </div>
+
+        </div>
 
       </div>
 

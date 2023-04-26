@@ -8,6 +8,8 @@ html {
     --color-head-foot: #f8f9fa;
     --color-secondary: #181719;
     --color-secondary-after: #6c757d;
+    --color-contact-form: #e9ecef;
+    --color-contact-textarea: #ffffff;
 
     scroll-behavior: smooth;
 
@@ -20,6 +22,8 @@ html[data-theme="dark"] {
     --color-main: #161625;
     --color-secondary: #e1e1ff;
     --color-secondary-after: #e1e1ff;
+    --color-contact-form: #272a2c;
+    --color-contact-textarea: #121212;
 
 }
 
@@ -409,10 +413,12 @@ li {
     .contact-links {
 
         display: flex;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 3em;
-        width: 80%;
+        gap: 5em;
+        margin-top: 5em;
     }
 
     .contact-links > a {
@@ -440,6 +446,97 @@ li {
     }
 
 
+}
+
+.contact-container {
+
+    display: flex;
+    align-items: flex-start;
+}
+
+.contact-form-container {
+
+    form {
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.field-input {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 0.5em;
+}
+
+.field-input-2 {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0.5em;
+}
+
+.field-button {
+
+    padding: 0.5em;
+}
+
+.contact-left {
+
+    width: 40%;
+}
+
+.contact-right {
+
+    background: var(--color-contact-form);
+    color: var(--color-secondary);
+    padding: 2em;
+    width: 55%;
+
+    .form-control {
+
+        background-color: var(--color-contact-textarea);
+        color: var(--color-secondary);
+
+        &:focus {
+            background-color: var(--color-contact-textarea);
+            color: var(--color-secondary);
+        }
+        &::placeholder {
+            color: var(--color-secondary-after);
+        }
+    } 
+}
+
+.ctt-border-cont {
+
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.ctt-border {
+
+    border-top: 1px solid #dcdcde;
+    display: flex;
+    width: 100%;
+
+}
+
+.ctt-right-header {
+
+    h2 {
+        padding: 0.2em;
+        font-weight: bold;
+    }
+
+}
+
+#form-alert-success, #form-alert-fail {
+
+    display: none;
 }
 
 footer {
